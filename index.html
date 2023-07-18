@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
     <title>Steps</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="step-container">
+      <div class="progress-container"></div>
+      <div class="progress" id="progress">
+        <div class="circles active">Av</div>
+        <div class="circles">Gd</div>
+        <div class="circles">Vgd</div>
+        <div class="circles">Ex</div>
+      </div>
+      <div class="btn-container">
+        <button class="btn" id="prev" disabled>Prev</button>
+        <button class="btn" id="next">Next</button>
+      </div>
+    </div>
     <script src="./assets/styles/script.js"></script>
-</body>
+  </body>
 </html>
